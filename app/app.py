@@ -138,7 +138,7 @@ def alert_test():
 
 @app.route("/alerts")
 def get_alerts():
-    return jsonify(alerts[-50:])  # last 50 alerts
+    return jsonify(alerts[-50:])  # last fifty alerts
 
 
 @app.route("/health")
